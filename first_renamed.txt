@@ -1,0 +1,31 @@
+Git tutorials
+
+Video 3
+1. git -> To see the git commands
+2. git config --global user.name "<name>"-> to input your name
+3. git config --global user.email "<mail id>" -> to enter your mail id
+4. git config --list -> to see if your name and mail got added
+5. git config user.name -> to see your name
+6. git config user.email -> to see your email id
+
+Video 4
+1. git status -> to check the current status of repository, all the unsaved files changes, pending commits etc.
+2. git init -> to create repository/ initialise
+3. git add --a -> to add all the changes to staging area
+4. git add <filename> (for example = git add first.txt) -> to add particular change (Ex. we made changes in 3 files but want to add only 1 of it)
+5. git commit -m "(any message about the change)" -> to push the data from staging area to 3rd place or final stage
+6. git log -> to see all the commits that we made (press q after using git log to come out from log)
+
+Video 5 
+1. rm -rf .git -> To delete the git repository (linux based command)
+2. pwd -> to know abt present working directory (linux based command)
+3. ls -> list the contents of pwd
+4. cd <directory> -> to change the directory
+
+Video 7
+1. touch <file name> --> to create new file
+2. <**> (tab) --> type first letters of file name and press tab key to get the whole name
+3. .gitignore --> a feature by git that allow us to ignore tracking of all the files whose name we add in this
+4. *.(extension) --> all the files with written extension (say *.log), will be ignored if written inside .gitignore
+5. /(filename)/ --> only the outermost file will be ignored with written name due '/' in forward
+6. (filename)/ --> all the files with this name will be ignored
